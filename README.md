@@ -42,6 +42,8 @@ walmart_weekly_sales_prediction/
 │── README.md             # Documentation
 │── data/                 # Dataset folder
 
+I included threadpoolctl in my requirements.txt because scikit‑learn depends on it to manage CPU threads. Pinning the version ensures my deployment environment matches my local setup
+
 🌐 Deployment
 This project can be deployed on Streamlit Cloud:
 Connect GitHub repo
